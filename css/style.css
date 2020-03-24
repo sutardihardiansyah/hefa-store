@@ -11,6 +11,10 @@ body {
   font-weight: 200;
 }
 
+.navbar .nav-link {
+  color: white !important
+}
+
 .nav-item.active a {
   color: #F9B234 !important;
   font-weight: 600;
@@ -20,6 +24,7 @@ body {
   color: #F9B234 !important;
   font-weight: 600;
 }
+
 
 /* carousel */
 .carousel {
@@ -37,7 +42,8 @@ body {
 .designers h3,
 .similar-product h3,
 .cart h3,
-.checkout-modal-success h3 {
+.checkout-modal-success h3,
+.category h3 {
   font-family: 'Lora';
   color: #1B2690;
   font-weight: bold;
@@ -47,7 +53,8 @@ body {
 .designers p,
 .similar-product p,
 .cart p,
-.checkout-modal-success p {
+.checkout-modal-success p,
+.category p {
   font-weight: 200;
   color: #B7B7B7;
 }
@@ -221,6 +228,11 @@ footer nav a {
   margin-top: 0;
 }
 
+.single-product .gallery .xzoom-thumbs img {
+  width: 80px !important;
+  height: 100px !important;
+}
+
 /* Similar Product */
 .similar-product {
   margin-top: 100px;
@@ -240,7 +252,23 @@ footer nav a {
   font-size: 14px;
 }
 
+/* xzoom */
+.single-product .gallery .xzoom-container {
+  display: block;
+}
 
+.single-product .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.single-product .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 
 
 
